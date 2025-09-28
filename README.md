@@ -184,9 +184,9 @@ rm ~/prueba/notas_final.txt
 
 23. Redirige la salida de un listado de archivos a un archivo llamado listado.txt.
 bash
-rm ~/prueba/notas_final.txt
+ls > listado.txt
 
-    
+	
 24. Añade una nueva línea al final del mismo archivo con el texto "Fin del listado".
 bash
 echo "Fin del listado" >> listado.txt
