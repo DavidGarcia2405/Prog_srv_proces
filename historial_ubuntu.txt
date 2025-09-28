@@ -1,0 +1,63 @@
+uname-r
+uname -r
+uname -a
+df -h
+du -h _/etc
+du -h /etc
+free -h
+ps aux
+sudo apt install htop
+ps -lax
+pstree
+ping google.com
+kill <PID_de_Firefox>
+#!/bin/bash
+systemctl status ssh
+sudo systemctl start ssh
+ls -la ~
+mkdir ~/prueba
+echo "Hola Linux" > ~/prueba/notass.txt
+cp ~prueba/notas.txt ~/prueba/notass_copia.txt
+cp ~prueba/notass.txt ~/prueba/notass_copia.txt
+mv ~/prueba/notass_copia.txt ~/prueba/notass_final.txt
+rm ~/prueba/notass_final.txt
+ping -c 4 google.com
+ip a
+sudo netstat -tuln
+nslookup google.com
+dig google.com
+ssh usuario@ip_remota
+sudo adduser alumno1
+chmod 755 archivo.txt
+sudo chown alumno1 archivo.txt
+sudo deluser alumno1
+history
+scp -P2222 david@127.0.0.1:~/.bash_history ./histrial_ubuntu.txt
+scp -P2222 david@127.0.0.1:~/.bash_history ./historial_ubuntu.txt
+scp -P2222 david@127.0.0.1:~/.bash_history./historial_ubuntu.txt
+sudo scp -P2222 david@127.0.0.1:~/.bash_history./historial_ubuntu.txt
+historial
+history
+ll
+echo "Friendly"
+echo "Frienfly" > mi_tuberia_to_guapa
+cat < mi_tuberia_to_guapa
+ll > mi_tuberia_to_guapa
+grep ll
+ll
+socat -u TCP-LISTEN:7777 STDOUT
+sudo apt install socat
+socat -u TCP-LISTEN:7777 STDOUT
+systemctl status sshd
+history
+history |  grep ssh
+sudo systemct start sshd
+sudo systemctl start sshd
+sudo apt install openssh-server
+sudo systemct start sshd
+sudo systemctl start sshd
+systemctl enable ssh
+systemctl restart ssh
+systemctl status sshd
+history
+history -a
